@@ -1,0 +1,153 @@
+{
+  "name": "Rider Dark",
+  "dark": true,
+  "author": "Denis Krovyakov",
+  "editorScheme": "/rider_dark.xml",
+  "ui": {
+    "*": {
+      "background": "#373737",
+      "foreground": "#D0D0D9",
+
+      "infoForeground": "#3d4452",
+
+
+      "acceleratorForeground": "#D0D0D9",
+      "acceleratorSelectionForeground": "#D0D0D9",
+
+      "errorForeground": "#dd3962",
+
+      "modifiedItemForeground": "#669653"
+    },
+    "Borders": {
+      "color": "#242425",
+      "ContrastBorderColor": "#373737"
+    },
+
+    "EditorPane.inactiveBackground": "#373737",
+
+    "EditorTabs": {
+      "selectedBackground": "#282828",
+      "underlineColor": "#282828",
+      "selectedForeground": "#e6e6e6",
+      "borderColor": "#2c2c2c",
+      "inactiveMaskColor": "#2c2c2c"
+    },
+    "Panel" : {
+      "foreground": "#acacac",
+      "background": "#373737"
+    },
+    "Tree": {
+      "background": "#303030",
+      "foreground": "#c7c7c7",
+      "selectionBackground": "#3d4452",
+      "selectionForeground": "#f8fafb"
+    },
+    "Menu": {
+      "background": "#373737",
+      "foreground": "#cbcbc2",
+      "borderColor": "#606060",
+      "separatorColor": "#606060"
+    },
+    "MenuBar": {
+      "borderColor": "#373737"
+    },
+    "MenuItem": {
+      "background": "#373737",
+      "foreground": "#cbcbc2",
+      "selectionBackground": "#094770"
+    },
+    "NavBar": {
+      "borderColor": "#373737"
+    },
+    "CompletionPopup": {
+      "background": "#373737",
+      "foreground": "#cecece"
+    },
+    "Button": {
+      "arc": 2
+    },
+    "StatusBar": {
+      "borderColor": "#373737"
+    },
+    "ToolWindow": {
+      "Header": {
+        "borderColor": "#363637",
+        "background": "#363637",
+        "inactiveBackground": "#363637"
+      }},
+
+    "ToolTip": {
+      "background": "#363637",
+      "Actions.background": "#282828"
+    },
+
+    "TableHeader.cellBorder": "3,0,3,0",
+    "Table.stripeColor": "#363637",
+
+    "Notification": {
+        "background": "#363637",
+        "borderColor": "#606060",
+
+        "errorForeground": "#D0D0D9",
+        "errorBackground": "#4d232e",
+        "errorBorderColor": "#802e44",
+
+        "MoreButton.innerBorderColor": "#1a1721",
+
+        "ToolWindow": {
+          "informativeForeground": "#D0D0D9",
+          "informativeBackground": "#239E62",
+          "informativeBorderColor": "#669653",
+
+          "warningForeground": "#D0D0D9",
+          "warningBackground": "#735822",
+          "warningBorderColor": "#403013",
+
+          "errorForeground": "#D0D0D9",
+          "errorBackground": "#802d43",
+          "errorBorderColor": "#4d1c2b"
+        }
+      },
+
+      "ParameterInfo": {
+        "background": "#373737",
+        "foreground": "#ababb3",
+        "infoForeground": "ababb3",
+        "currentOverloadBackground": "#606060",
+        "currentParameterForeground": "#D0D0D9"
+      },
+
+    "ProgressBar": {
+      "trackColor": "#242425",
+      "progressColor": "#606060",
+      "indeterminateStartColor": "#606060",
+      "indeterminateEndColor": "#373737",
+      "failedColor": "#bd3c5f",
+      "failedEndColor": "#472c33",
+      "passedColor": "#239E62",
+      "passedEndColor": "#2b4242"
+    },
+
+    "Tree.rowHeight": 20,
+
+    "ValidationTooltip": {
+      "errorBackground": "#802d43",
+      "errorBorderColor": "#4d1c2b",
+      "warningBackground": "#735822",
+      "warningBorderColor": "#403013"
+    },
+
+    "VersionControl": {
+      "Log.Commit": {
+        "currentBranchBackground": "#094770",
+        "unmatchedForeground": "#3d4452"
+      },
+      "FileHistory.Commit.selectedBranchBackground": "#094770"
+    },
+
+    "WelcomeScreen": {
+      "Projects.selectionInactiveBackground": "#669653",
+      "separatorColor": "#242425"
+    }
+  }
+}

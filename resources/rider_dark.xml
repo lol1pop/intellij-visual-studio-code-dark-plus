@@ -1,10 +1,10 @@
-<scheme name="Visual Studio Code Dark Plus" version="142" parent_scheme="Darcula">
+<scheme name="Rider Dark" version="142" parent_scheme="Darcula">
   <metaInfo>
     <property name="created">2019-04-17T20:42:50</property>
-    <property name="ide">PhpStorm</property>
+    <property name="ide">Intellij</property>
     <property name="ideVersion">2019.1.1.0.0</property>
     <property name="modified">2019-04-18T19:41:22</property>
-    <property name="originalScheme">Visual Studio Code Dark Plus</property>
+    <property name="originalScheme">Rider Dark</property>
   </metaInfo>
   <colors>
     <option name="CARET_COLOR" value="adaeac" />

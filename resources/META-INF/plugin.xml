@@ -1,39 +1,14 @@
 <idea-plugin>
-  <id>com.samdark.intellij-visual-studio-code-dark-plus</id>
-  <name>Visual Studio Code Dark Plus Theme</name>
+  <id>com.lol1pop.intellij-visual-studio-code-dark-plus</id>
+  <name>Rider Dark Theme</name>
   <version>1.5</version>
-  <vendor email="sam@rmcreative.ru" url="https://rmcreative.ru">Alexander Makarov</vendor>
+  <vendor email="denis.krovyakov@softomate.com" url="https://github.com/lol1pop">Denis Krovyakov</vendor>
 
   <description><![CDATA[
-      Dark theme inspired by Visual Studio Code Dark Plus
+      Dark theme inspired by Rider Dark
     ]]></description>
 
   <change-notes><![CDATA[
-    <b>1.5</b>
-    <ul>
-      <li>Removed injected language block highlighting.</li>
-    </ul>
-
-    <b>1.4</b>
-    <ul>
-      <li>Adjusted minimal version of IDEA to match the one themes were introduced.</li>
-    </ul>
-
-    <b>1.3</b>
-    <ul>
-        <li>Improved markdown highlighting.</li>
-    </ul>
-
-    <b>1.2</b>
-    <ul>
-        <li>Removed screenshot from description</li>
-    </ul>
-
-    <b>1.1</b>
-    <ul>
-        <li>Fixed theme compatibility</li>
-    </ul>
-
     <b>1.0</b>
     <ul>
         <li>Initial release</li>
@@ -52,11 +27,20 @@
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
-    <themeProvider id="e843a6a0-d4df-4c2a-b5b6-99dcbb839b8d" path="/visual_studio_code_dark_plus.theme.json"/>
+    <themeProvider id="e843a6a0-d4df-4c2a-b5b6-99dcbb839b8d" path="/rider_dark.theme.json"/>
   </extensions>
 
   <actions>
     <!-- Add your actions here -->
+    <action id="Rider Dark by intellij" class="com.intellij.idea.Main" text="Rider_Dark"
+            description="theme for intellij from rider">
+      <add-to-group group-id="MainMenu" anchor="first"/>
+    </action>
+    <action id="RiderDarkByIntellij" class="com.intellij.idea.Main" text="Rider_Dark"
+            description="Theme for Intellij from Rider">
+      <add-to-group group-id="MainMenu" anchor="after" relative-to-action="WindowMenu"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt M"/>
+    </action>
   </actions>
 
   <depends>com.intellij.modules.lang</depends>
