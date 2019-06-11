@@ -1,11 +1,11 @@
 <idea-plugin>
   <id>com.lol1pop.intellij-visual-studio-code-dark-plus</id>
   <name>Rider Dark Theme</name>
-  <version>1.5</version>
+  <version>1.0</version>
   <vendor email="denis.krovyakov@softomate.com" url="https://github.com/lol1pop">Denis Krovyakov</vendor>
 
   <description><![CDATA[
-      Dark theme inspired by Rider Dark
+      Dark theme out Rider Dark for Intellij IDEA
     ]]></description>
 
   <change-notes><![CDATA[
@@ -27,7 +27,7 @@
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
-    <themeProvider id="e843a6a0-d4df-4c2a-b5b6-99dcbb839b8d" path="/rider_dark.theme.json"/>
+    <themeProvider id="a3c46c4f-d838-4b33-9cf4-c41c5f3b5864" path="/rider_dark.theme.json"/>
   </extensions>
 
   <actions>
