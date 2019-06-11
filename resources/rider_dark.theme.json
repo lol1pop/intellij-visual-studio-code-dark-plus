@@ -23,11 +23,11 @@
       "shortcutForeground": "#6E86FF"
     },
     "EditorTabs": {
-      "selectedBackground": "#2F3447",
+      "selectedBackground": "#282828",
       "selectedForeground": "#e6e6e6",
-      "underlineColor": "#4C5E88",
+      "underlineColor": "#74757a",
       "borderColor": "#282828",
-      "inactiveMaskColor": "#2c2c2c"
+      "inactiveMaskColor": "#383838"
     },
     "Panel": {
       "foreground": "#C6C6CC",
@@ -37,6 +37,7 @@
       "background": "#303030",
       "foreground": "#C6C6CC",
       "selectionBackground": "#3d4452",
+      "selectionInactiveBackground": "3d4452",
       "selectionForeground": "#f8fafb"
     },
     "Menu": {
@@ -148,7 +149,7 @@
       "separatorColor": "#2C2C2C"
     },
     "FileColor": {
-      "Yellow": "#616161"
+      "Yellow": "#3B3C3D"
     }
   },
   "icons": {

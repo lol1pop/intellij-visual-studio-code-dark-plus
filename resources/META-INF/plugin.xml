@@ -1,14 +1,29 @@
 <idea-plugin>
   <id>com.lol1pop.intellij-visual-studio-code-dark-plus</id>
   <name>Rider Dark Theme</name>
-  <version>1.0</version>
+  <version>1.0.2</version>
   <vendor email="denis.krovyakov@softomate.com" url="https://github.com/lol1pop">Denis Krovyakov</vendor>
 
   <description><![CDATA[
-      Dark theme out Rider Dark for Intellij IDEA
+      <p>Dark theme out Rider Dark for Intellij IDEA</p>
+      <p>
+          <img src="https://github.com/lol1pop/intellij-visual-studio-code-dark-plus/raw/master/screenshots/screenshots_1.png?sanitize=true"
+              alt="Icon" style="max-width:100%;">
+      </p>
     ]]></description>
 
   <change-notes><![CDATA[
+    <b>1.0.2</b>
+    <ul>
+        <li>The color selector background and caret row of the selection is set to different from the background. </li>
+    </ul>
+
+
+    <b>1.0.1</b>
+    <ul>
+        <li>Small fixes in the color scheme in file status VCS</li>
+    </ul>
+
     <b>1.0</b>
     <ul>
         <li>Initial release</li>
