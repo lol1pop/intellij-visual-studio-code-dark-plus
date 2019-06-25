@@ -1,18 +1,19 @@
 <idea-plugin>
   <id>com.lol1pop.intellij-visual-studio-code-dark-plus</id>
   <name>Rider Dark Theme</name>
-  <version>1.0.2</version>
+  <version>1.0.3</version>
   <vendor email="denis.krovyakov@softomate.com" url="https://github.com/lol1pop">Denis Krovyakov</vendor>
 
   <description><![CDATA[
       <p>Dark theme out Rider Dark for Intellij IDEA</p>
-      <p>
-          <img src="https://raw.githubusercontent.com/lol1pop/intellij-visual-studio-code-dark-plus/master/screenshots/screenshots_1.png?sanitize=true"
-              alt="Icon" style="max-width:100%;">
-      </p>
     ]]></description>
 
   <change-notes><![CDATA[
+   <b>1.0.3</b>
+    <ul>
+        <li>Fix VCS colors <br/> Add new color scheme "Hakone"</li>
+    </ul>
+
     <b>1.0.2</b>
     <ul>
         <li>The color selector background and caret row of the selection is set to different from the background. </li>

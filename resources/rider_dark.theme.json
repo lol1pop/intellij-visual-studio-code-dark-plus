@@ -135,8 +135,14 @@
     },
     "VersionControl": {
       "Log.Commit": {
-        "unmatchedForeground": "#094770"
-      }
+        "currentBranchBackground": "#303030",
+        "unmatchedForeground": "#C6C6CC"
+      },
+      "RefLabel": {
+        "backgroundBase": "#303030",
+        "backgroundBrightness": 0.7
+      },
+      "FileHistory.Commit.selectedBranchBackground": "#303030"
     },
     "Link": {
       "activeForeground": "#7094ff",
