@@ -11,7 +11,7 @@
   <change-notes><![CDATA[
    <b>1.0.3</b>
     <ul>
-        <li>Fix VCS colors <br/> Add new color scheme "Hakone"</li>
+        <li>Fix VCS colors <br/> Add new color scheme "Hakone" <br/> Added one of the standard WarmNeon themes customized for this UI theme. </li>
     </ul>
 
     <b>1.0.2</b>
@@ -44,6 +44,9 @@
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
     <themeProvider id="a3c46c4f-d838-4b33-9cf4-c41c5f3b5864" path="/rider_dark.theme.json"/>
+    <bundledColorScheme  id="Rider Dark" path="/rider_dark"/>
+    <bundledColorScheme  id="Hakone" path="/Hakone"/>
+    <bundledColorScheme  id="WarmNeonDark" path="/WarmNeonDark"/>
   </extensions>
 
   <actions>
